@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "fdnpostgres",
+    "database": "fdntesting",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "fdnpostgres",
+    "database": "fdntesting",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "fdnpostgres",
+    "database": "fdn",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
