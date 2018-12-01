@@ -57,6 +57,10 @@ Open  http://localhost:8080/ in your browser.
 
 <b>How to run server side</b>
 
+* Run postgres local database, create database name 'fdn'
+* Import userdata.sql file to your local  postgres 
+
+
 ```
 Go to /server directory in terminal
 
