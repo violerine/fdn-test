@@ -63,6 +63,14 @@ Go to /server directory in terminal
 $npm start
 ```
 
+Running on localhost:5000 .
+
+To change the port go to file bin/www , search for 
+
+```
+var port = normalizePort(process.env.PORT || '5000');
+
+```
 
 ## API 
 
@@ -85,9 +93,9 @@ $npm test
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
 
 ```
+// Need properties id,firstname,lastname,email,item,quantity,totalprice
 
 describe('User model should have some properties',function(){
     it('should have property id',function(){
@@ -95,24 +103,29 @@ describe('User model should have some properties',function(){
     })
 })
 
+// Success displaying all user from database
+
 describe('get all users',()=>{
   it('should return status 200',(done)=>{
       ...
   })
 })
 
+// Success adding new user to database 
 describe('add new user',()=>{
   it('add new user and should return status 200',(done)=>{
       ...
   })
 })
 
-
+// Sucess deleting new user with specified Id
 describe('delete user',()=>{
   it('should delete one specified user and return status 200',(done)=>{
       ...
   })
 })
+
+// Display the table with item types in column.
 
 describe('show pivotted table',()=>{
   it('should return pivoted table and status 200',(done)=>{
