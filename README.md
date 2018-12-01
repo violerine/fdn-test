@@ -17,14 +17,14 @@ postgres
 vue-cli
 ```
 
-<b>How to install postgres<b>
+<b>How to install postgres</b>
 
 with Homebrew
 ```
 $ brew install postgresql
 ```
 
-for windows can refer to this link 
+for Windows can refer to this link 
 
 https://www.postgresql.org/download/windows/
 
@@ -43,7 +43,7 @@ $git clone https://github.com/violerine/fdn-test.git
 
 The file consists of two folder, client and server. 
 
-<b>How to run client side<b>
+<b>How to run client side</b>
 
 
 
@@ -86,6 +86,40 @@ $npm test
 ### Break down into end to end tests
 
 Explain what these tests test and why
+
+```
+
+describe('User model should have some properties',function(){
+    it('should have property id',function(){
+        ...
+    })
+})
+
+describe('get all users',()=>{
+  it('should return status 200',(done)=>{
+      ...
+  })
+})
+
+describe('add new user',()=>{
+  it('add new user and should return status 200',(done)=>{
+      ...
+  })
+})
+
+
+describe('delete user',()=>{
+  it('should delete one specified user and return status 200',(done)=>{
+      ...
+  })
+})
+
+describe('show pivotted table',()=>{
+  it('should return pivoted table and status 200',(done)=>{
+        ...
+    })
+  })
+})
 
 ```
 
