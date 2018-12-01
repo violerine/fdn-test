@@ -1,6 +1,6 @@
 let model = require('../models')
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('postgres://postgres:postgresfdn@localhost:5432/fdntesting');
+const sequelize = new Sequelize('postgres://postgres:postgresfdn@localhost:5432/fdn');
 
 module.exports = {
     getUsers:(req,res,next)=>{

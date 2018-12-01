@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const cors = require('cors')
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('postgres://postgres:postgresfdn@localhost:5432/fdntesting');
+const sequelize = new Sequelize('postgres://postgres:postgresfdn@localhost:5432/fdn');
 
 sequelize
   .authenticate()
